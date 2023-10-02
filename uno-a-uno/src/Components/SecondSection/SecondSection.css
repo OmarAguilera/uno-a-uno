@@ -1,0 +1,37 @@
+
+
+.SecondSection-Component{
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+}
+
+.SecondSection-Image{
+    width: 250px;
+    height: 280px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid orange;
+
+}
+
+.SecondSection-Component span{
+    width: 40%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+@media (min-width:1000px){
+    .SecondSection-Component{
+
+        height: 100vh;
+    }
+}

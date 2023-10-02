@@ -1,0 +1,49 @@
+
+.LetterCard{
+    width: 30px;
+    height: 60px;
+    background-color: #fff;
+    /* border: 1px solid orange; */
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 1rem;
+
+    transition: all 1s ease-in-out;
+}
+
+.LetterCardShadow{
+
+    box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+}
+
+
+
+@media (min-width:450px){
+    .LetterCard{
+        width: 45px;
+        height: 70px;
+
+
+    }
+}
+
+
+@media (min-width:1000px){
+    .LetterCard{
+        width: 9%;
+        max-width: 100px;
+        height: 140px;
+        font-size: 1.8rem;
+
+
+    }
+}
+
